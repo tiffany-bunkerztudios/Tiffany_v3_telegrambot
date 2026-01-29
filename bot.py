@@ -1,4 +1,20 @@
 #!/usr/bin/env python3
+import os
+import sys
+import signal
+
+# Manejar señales de cierre
+def signal_handler(signum, frame):
+    logger.info("Recibida señal de terminación, cerrando...")
+    sys.exit(0)
+
+signal.signal(signal.SIGTERM, signal_handler)
+signal.signal(signal.SIGINT, signal_handler)
+
+# Configurar para webhooks si es necesario
+WEBHOOK_MODE = os.getenv('WEBHOOK_MODE', 'False').lower() == 'true'
+WEBHOOK_URL = os.getenv('WEBHOOK_URL', '')
+PORT = int(os.getenv('PORT', 8443))
 import logging
 from telegram import Update, BotCommand
 from telegram.ext import (
