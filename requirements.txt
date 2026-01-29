@@ -4,3 +4,4 @@ beautifulsoup4==4.12.2
 feedparser==6.0.10
 aiohttp==3.9.1
 schedule==1.2.0
+python-dotenv==1.0.0
