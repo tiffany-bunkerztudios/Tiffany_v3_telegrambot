@@ -1,0 +1,51 @@
+{
+    "ciberseguridad": [
+        "¿Hablamos de ciberseguridad hoy? 🛡️",
+        "Un buen firewall es tu mejor amigo en internet",
+        "¿Sabías que las contraseñas más comunes son '123456' y 'password'?",
+        "La ingeniería social sigue siendo la amenaza número uno",
+        "Actualizar software no es una opción, es una necesidad",
+        "El phishing se hace más sofisticado cada día",
+        "¿Alguien ha probado la última versión de Kali Linux?",
+        "La autenticación en dos factores debería ser obligatoria",
+        "Los backups salvan vidas digitales",
+        "Nunca confíes, siempre verifica - Zero Trust"
+    ],
+    "tecnologia": [
+        "La IA está revolucionando todo, incluso la seguridad",
+        "¿Han visto las últimas CPUs con hardware de seguridad?",
+        "El cloud computing trae nuevos desafíos interesantes",
+        "El IoT es un paraíso para los hackers...",
+        "5G y seguridad, un tema candente",
+        "La computación cuántica cambiará la criptografía actual"
+    ],
+    "general": [
+        "¡Hola a todos! 👋",
+        "¿Cómo están el día de hoy?",
+        "El conocimiento compartido es poder",
+        "¿Alguien tiene algún proyecto interesante?",
+        "La comunidad es lo más importante en seguridad",
+        "Aprendamos algo nuevo hoy",
+        "Compartir es cuidar, especialmente en seguridad"
+    ],
+    "inactividad": [
+        "Parece que hay silencio... ¿todos auditando código? 😄",
+        "En el silencio se escuchan mejor los logs del sistema",
+        "¿Nadie quiere hablar de la última vulnerabilidad crítica?",
+        "Momento perfecto para revisar políticas de seguridad",
+        "¿Todos ocupados probando exploits? 🤔",
+        "El silencio a veces es bueno... significa que no hay alertas de seguridad"
+    ],
+    "saludos": [
+        "¡Bienvenido {nombre}! 👋",
+        "¡Hola {nombre}! ¿Listo para hablar de seguridad? 🔐",
+        "¡Saludos {nombre}! Bienvenido al grupo 🛡️",
+        "¡Hola {nombre}! Un placer tenerte aquí 💻"
+    ],
+    "despedidas": [
+        "¡Hasta luego {nombre}! 👋",
+        "Nos vemos pronto {nombre}",
+        "¡Que tengas buen día {nombre}!",
+        "Cuídate {nombre}, y protege tus datos 💾"
+    ]
+}
